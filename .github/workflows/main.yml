@@ -34,6 +34,13 @@ jobs:
               -d testData.csv \
               -r cli,htmlextra
 
+      - name: Archieve the report
+        if: always() #To ensure test will run whether test is passed or not
+        uses: actions/upload-artifact@v7.0.1
+        with: 
+          name: Newman report
+          path: newman/*.html
+
               
 
 
