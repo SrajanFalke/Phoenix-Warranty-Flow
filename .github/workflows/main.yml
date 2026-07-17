@@ -62,6 +62,6 @@ jobs:
           from: ${{ secrets.EMAIL_USERNAME }}
           body: |
                  hi, 
-                 The execution has been done, URL of the report is : https://github.com/SrajanFalke/Phoenix-Warranty-Flow/blob/gh-pages/index.html
+                 The execution has been done, URL of the report is : https://srajanfalke.github.io/Phoenix-Warranty-Flow/
 
   
